@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import { ChannelSidebar } from './style';
+import { ChannelSidebar, Channel, SubChannel } from './style';
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js';
 import {
     getFirestore,
@@ -33,36 +33,14 @@ const SidebarGallery: React.FC = () => {
     const db = getFirestore(app);
     const storage = getStorage(app);
 
-    // 아래에서 doc, setDoc 메소드로 데이터 처리
-    // const saveNameClickHandler = async (event) => {
-    //     event.preventDefault();
-    //     const name = detailName.value;
-    //     const prisonerId = currentPrisonCell.getAttribute('dataId');
-
-    //     const prisonerDocRef = doc(db, "prisoner", prisonerId);
-    //     const prisonerData = {
-    //         name: name
-    //     };
-
-    //     try {
-    //         await setDoc(prisonerDocRef, prisonerData, { merge: true });
-    //         console.log("Name updated in Firestore: ", name);
-    //     } catch (error) {
-    //         console.error("Error updating name in Firestore: ", error);
-    //     }
-
-    //     const prisonerName = currentPrisonCell.querySelector('.prisonerName');
-    //     prisonerName.textContent = name;
-
-    //     detailMugshot.alt = name;
-    //     detailForm.reset();
-    //     resetDetailModal();
-    // };
-
     return (
-        <div>
-            <ChannelSidebar>ㅎㅇgdㅎㅇ</ChannelSidebar>
-        </div>
+        <ChannelSidebar>
+            <Channel># 모든 수강생</Channel>
+            <SubChannel>&gt; 프로필</SubChannel>
+            <Channel># 래퍼런스 공유</Channel>
+            <SubChannel>&gt; 취업</SubChannel>
+            <SubChannel>&gt; 테크</SubChannel>
+        </ChannelSidebar>
     );
 };
 

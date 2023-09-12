@@ -6,7 +6,7 @@ const Gallery: React.FC = () => {
     return (
         <GalleryContainer>
             <SidebarGallery />
-            Gallery
+            <div>갤러리 내용</div>
         </GalleryContainer>
     );
 };
