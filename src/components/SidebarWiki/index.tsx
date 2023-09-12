@@ -33,37 +33,8 @@ const SidebarWiki: React.FC = () => {
     const db = getFirestore(app);
     const storage = getStorage(app);
 
-    // 아래에서 doc, setDoc 메소드로 데이터 처리
-    // const saveNameClickHandler = async (event) => {
-    //     event.preventDefault();
-    //     const name = detailName.value;
-    //     const prisonerId = currentPrisonCell.getAttribute('dataId');
-
-    //     const prisonerDocRef = doc(db, "prisoner", prisonerId);
-    //     const prisonerData = {
-    //         name: name
-    //     };
-
-    //     try {
-    //         await setDoc(prisonerDocRef, prisonerData, { merge: true });
-    //         console.log("Name updated in Firestore: ", name);
-    //     } catch (error) {
-    //         console.error("Error updating name in Firestore: ", error);
-    //     }
-
-    //     const prisonerName = currentPrisonCell.querySelector('.prisonerName');
-    //     prisonerName.textContent = name;
-
-    //     detailMugshot.alt = name;
-    //     detailForm.reset();
-    //     resetDetailModal();
-    // };
-
-    return (
-        <div>
-            <ChannelSidebar>ㅎㅇgdㅎㅇ</ChannelSidebar>
-        </div>
-    );
+    //
+    return <ChannelSidebar>ㅎㅇgdㅎㅇ</ChannelSidebar>;
 };
 
 export default SidebarWiki;
