@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const FooterComponent= styled.div`  
+export const FooterComponent = styled.div`  
     border-top:1px solid #efefef;
     text-align: center;
     padding-top:10px

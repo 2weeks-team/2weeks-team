@@ -1,10 +1,14 @@
 import React from 'react';
 import { GalleryContainer } from './style';
+import SidebarGallery from '../../components/SidebarGallery';
 
-const Gallery:React.FC = () => {
-  return (
-    <GalleryContainer>Gallery</GalleryContainer>
-  );
-}
+const Gallery: React.FC = () => {
+    return (
+        <GalleryContainer>
+            <SidebarGallery />
+            Gallery
+        </GalleryContainer>
+    );
+};
 
-export default Gallery
+export default Gallery;
