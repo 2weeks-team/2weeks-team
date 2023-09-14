@@ -7,7 +7,9 @@ const Home: React.FC = () => {
         <HomeContainer>
             <CarouselContainer>
                 <ContentTitle>Carousel</ContentTitle>
-                <CarouselWrapper></CarouselWrapper>
+                <CarouselWrapper>
+                    <Slider></Slider>
+                </CarouselWrapper>
             </CarouselContainer>
         </HomeContainer>
     );
