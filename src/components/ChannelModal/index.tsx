@@ -57,7 +57,7 @@ const ChannelModal: React.FC<ChannelModalProps> = ({
     };
 
     const handleCreateSubChannel = async () => {
-        const fieldValue = {}; // 수정은 wiki 페이지에서 하는 것이므로 우선 빈 객체 할당
+        const fieldValue = { content: '', time: '' }; // 수정은 wiki 페이지에서 하는 것이므로 우선 빈 객체 할당
         try {
             await addFieldToDoc(collectionName, channelId, name, fieldValue); // channelId라는 doc에 name:{fieldValue} 형태의 field를 추가하는 것임
             closeModal();
