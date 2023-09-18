@@ -11,6 +11,7 @@ import {
     setDoc,
     onSnapshot,
     QuerySnapshot,
+    updateDoc,
 } from 'firebase/firestore';
 
 import { getStorage } from 'firebase/storage';
@@ -125,6 +126,22 @@ export const updateChannelDoc = async (collectionName: string, oldDocName: strin
         console.log('채널 수정 성공!');
     } catch (error) {
         console.error('채널 수정 실패!', error);
+        throw error;
+    }
+};
+
+export const updateChannelContent = async (collectionName: string, docName: string, docContent: string) => {
+    const docRef = doc(firestore, collectionName, docName);
+
+    try {
+        // 수정하려는 document의 field 값을 읽어온 후, 새로운 document에 복사
+        const oldDocumentSnapshot = await getDoc(docRef);
+        const data = oldDocumentSnapshot.data();
+        const fieldToUpdate = 'content';
+        await updateDoc(docRef, { [fieldToUpdate]: docContent });
+        console.log('채널 내용 수정 성공!');
+    } catch (error) {
+        console.error('채널 내용 수정 실패!', error);
         throw error;
     }
 };

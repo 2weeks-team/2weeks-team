@@ -125,4 +125,8 @@ const SidebarWiki: React.FC<SidebarWikiProps> = ({ onKeyClick }) => {
     );
 };
 
+/*export function getSelectedSubChannelId(): string {
+    return selectedSubChannelId;
+}*/
+
 export default SidebarWiki;
