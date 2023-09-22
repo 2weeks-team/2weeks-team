@@ -3,6 +3,9 @@
 ## 📌 프로젝트 소개
 **FASTUDY**는 프로젝트 및 스터디원 모집 및 정보 공유 서비스입니다
 
+## 📌 배포 사이트
+https://2weeks-team-mzbe-c7xmzksqc-2weeks.vercel.app/
+
 <details>
 <summary>야놀자 테크 캠프 토이 프로젝트 설명</summary>
 
@@ -80,31 +83,31 @@
     <td align="center">
       <a href="https://github.com/seungjun222" target="_blank">
         어승준<br />
-        Frontend
+                팀장 (FE)
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/HOOOO98" target="_blank">
         박성후<br />
-        Frontend
+                팀원 (FE)
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/JeongMin83" target="_blank">
         진정민<br />
-        Frontend
+                팀원 (FE)
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/Yamyam-code" target="_blank">
         백상원<br />
-        Frontend
+                팀원 (FE)
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/syb0127" target="_blank">
         서예빈<br />
-        Frontend
+                팀원 (FE)
       </a>
     </td>
   </tr>
@@ -119,7 +122,7 @@
 
 ## 📌 기술 스택
 
-### Enviroment
+### Environment
 
 <div style="display: flex;">
   <img src="https://img.shields.io/badge/VSC-007ACC?style=for-the-badge&logo=visual studio&logoColor=white" />
@@ -135,6 +138,7 @@
   <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/react-%2320232a?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
+  <img src="https://img.shields.io/badge/Recoil-oran?style=for-the-badge&logo=Recoil" />
   <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
 </div>
 
@@ -178,8 +182,7 @@
 ![myPage](https://github.com/2weeks-team/2weeks-team/assets/39702832/fe4ced66-b2e9-4ab7-ad09-18a585fcb29a)
 
 ## 📌 DB 스키마
-<img src="https://github.com/2weeks-team/2weeks-team/assets/39702832/114bbcf4-3c73-4145-858c-fa005bc71277
-" />
+<img width="1609" alt="Movie Database" src="https://github.com/2weeks-team/2weeks-team/assets/39702832/92156c0f-0ae9-45f4-8671-3de44d8ecc9e">
 
 ## 📌 유저 플로우
 <img src="https://github.com/2weeks-team/2weeks-team/assets/39702832/871756a9-93da-4f20-9dcd-7e35200aadbd"/>
