@@ -4,7 +4,7 @@
 **FASTUDY**는 프로젝트 및 스터디원 모집 및 정보 공유 서비스입니다
 
 ## 📌 배포 사이트
-https://2weeks-team-mzbe-c7xmzksqc-2weeks.vercel.app/
+fascinating-valkyrie-a7121b.netlify.app
 
 <details>
 <summary>야놀자 테크 캠프 토이 프로젝트 설명</summary>
@@ -27,25 +27,23 @@ https://2weeks-team-mzbe-c7xmzksqc-2weeks.vercel.app/
 9. Pull Request에서 과제 제출 후 절대 병합(Merge)하지 않도록 주의하세요!
 10. 과제 수행 및 제출 과정에서 문제가 발생한 경우, 바로 담당 멘토나 강사님께 얘기하세요!
 
-### **[필수 구현사항]**
+## **[필수 구현사항]**
+- [ ] `useState` 또는 `useReducer`를 활용한 상태 관리 구현
+- [ ] `Sass`, `styled-component`, `emotion`, `Chakra UI`, `tailwind CSS` 등을 활용한 스타일 구현
+- [ ] `react` 상태를 통한 CRUD 구현
+- [ ] 상태에 따라 달라지는 스타일 구현
+- [ ] `custom hook`을 통한 비동기 처리 구현
+- [ ] 유저인증 시스템(로그인, 회원가입) 구현
+- [ ] `jwt`등의 유저 인증 시스템 (로그인, 회원가입 기능)
+- [ ] 소켓을 이용한 채팅 구현
 
-[x] 문서편집, revision 기능을 제공하여 업무일지를 작성할 수 있는 직원들을 위한 위키사이트 구현(마크다운 형식)
-[x]  firebase database (Firestore) 이용
-[x]  모달을 활용한 근무 시간을 표시하는 시계 및 타이머 창 구현
-[x]  캐러셀을 활용한 회사 공지 페이지
-[x]  **갤러리 페이지 / 업무일지 페이지 등 메뉴를 필터링 또는 카테고리화 하는 선택바 구현**
-[x]  netlify 등을 이용한 정적 페이지 배포
-[x]  TypeScript 사용 필수
-[x]  과제에 대한 설명을 포함한 `README.md` 파일 작성
-[x]  팀원별로 구현한 부분 소개
+## **[선택 구현사항]**
+- [ ] `Next.js`를 활용한 서버 사이드 렌더링 구현
+- [ ] `typescript`를 활용한 앱 구현
+- [ ] `storybook`을 활용한 디자인 시스템 구현
+- [ ] `jest`를 활용한 단위 테스트 구현
 
-### **[선택 구현사항]**
 
-[x]  React 사용은 선택
-[x]  기타 동작이 완료되기 전에 로딩 애니메이션 구현
-[x]  페이지네이션
-[x]  관련된 기타 기능도 고려
-[x]  eslint 설정, 커밋컨벤션, 문서화 등 팀프로젝트시 필요한 추가 작업들
 
 </details>
 
@@ -53,14 +51,14 @@ https://2weeks-team-mzbe-c7xmzksqc-2weeks.vercel.app/
 
 <table>
   <tr>
-    <td align="center" width="150px">
-      <a href="https://github.com/seungjun222" target="_blank">
-        <img src="https://github.com/KDT1-FE/Y_FE_Toy1/assets/39702832/bae37c66-7793-4ab8-a4e9-d2230d9adb9c" alt="어승준 프로필" />
+     <td align="center" width="150px">
+      <a href="https://github.com/turkey-kim" target="_blank">
+        <img src="https://github.com/2weeks-team/2weeks-team/assets/39702832/8cc8e0d9-7d9b-4162-aebd-e459e996a144" alt="진정민 프로필" />
       </a>
     </td>
-    <td align="center" width="150px">
-      <a href="https://github.com/suyeonnnnnnn" target="_blank">
-        <img src="https://github.com/2weeks-team/2weeks-team/assets/39702832/bb37ddd1-4e90-42c5-a470-3682222db407" alt="박성후 프로필" />
+     <td align="center" width="150px">
+      <a href="https://github.com/turkey-kim" target="_blank">
+        <img src="https://github.com/2weeks-team/2weeks-team/assets/39702832/8cc8e0d9-7d9b-4162-aebd-e459e996a144" alt="진정민 프로필" />
       </a>
     </td>
     <td align="center" width="150px">
@@ -68,27 +66,27 @@ https://2weeks-team-mzbe-c7xmzksqc-2weeks.vercel.app/
         <img src="https://github.com/2weeks-team/2weeks-team/assets/39702832/8cc8e0d9-7d9b-4162-aebd-e459e996a144" alt="진정민 프로필" />
       </a>
     </td>
-    <td align="center" width="150px">
-      <a href="https://github.com/jinuk0316" target="_blank">
-        <img src="https://github.com/KDT1-FE/Y_FE_Toy1/assets/39702832/58fb577d-9f8c-4679-bca1-8ff15ca84f6b" alt="백상원 프로필"/>
+     <td align="center" width="150px">
+      <a href="https://github.com/turkey-kim" target="_blank">
+        <img src="https://github.com/2weeks-team/2weeks-team/assets/39702832/8cc8e0d9-7d9b-4162-aebd-e459e996a144" alt="진정민 프로필" />
       </a>
     </td>
-    <td align="center" width="150px">
-      <a href="https://github.com/yangjaehyuk" target="_blank">
-        <img src="https://github.com/turkey-kim/techschool_wiki/assets/39702832/16943899-0f15-44d6-8938-2d85cda2a163" alt="서예빈 프로필" />
+     <td align="center" width="150px">
+      <a href="https://github.com/turkey-kim" target="_blank">
+        <img src="https://github.com/2weeks-team/2weeks-team/assets/39702832/8cc8e0d9-7d9b-4162-aebd-e459e996a144" alt="진정민 프로필" />
       </a>
     </td>
   </tr>
   <tr>
-    <td align="center">
-      <a href="https://github.com/seungjun222" target="_blank">
-        어승준<br />
-                팀장 (FE)
+        <td align="center">
+      <a href="https://github.com/JeongMin83" target="_blank">
+        진정민<br />
+                팀원 (FE)
       </a>
     </td>
-    <td align="center">
-      <a href="https://github.com/HOOOO98" target="_blank">
-        박성후<br />
+        <td align="center">
+      <a href="https://github.com/JeongMin83" target="_blank">
+        진정민<br />
                 팀원 (FE)
       </a>
     </td>
@@ -99,14 +97,14 @@ https://2weeks-team-mzbe-c7xmzksqc-2weeks.vercel.app/
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/Yamyam-code" target="_blank">
-        백상원<br />
+      <a href="https://github.com/JeongMin83" target="_blank">
+        진정민<br />
                 팀원 (FE)
       </a>
     </td>
-    <td align="center">
-      <a href="https://github.com/syb0127" target="_blank">
-        서예빈<br />
+        <td align="center">
+      <a href="https://github.com/JeongMin83" target="_blank">
+        진정민<br />
                 팀원 (FE)
       </a>
     </td>
@@ -115,10 +113,10 @@ https://2weeks-team-mzbe-c7xmzksqc-2weeks.vercel.app/
 
 ## 📌 Contributor
 > @[JeongMin83](https://github.com/JeongMin83) (진정민) : 메인페이지, 로그인, 모집<br/>
-@[seungjun222](https://github.com/seungjun222) (어승준) : 사이드바, 모집<br/>
-@[Yamyam-code](https://github.com/Yamyam-code) (백상원) : 마이페이지<br/>
-@[HOOOO98](https://github.com/HOOOO98) (박성후) : 갤러리<br/>
-@[syb0127](https://github.com/syb0127) (서예빈) : 위키
+@[JeongMin83](https://github.com/JeongMin83) (진정민) : 메인페이지, 로그인, 모집<br/>
+@[JeongMin83](https://github.com/JeongMin83) (진정민) : 메인페이지, 로그인, 모집<br/>
+@[JeongMin83](https://github.com/JeongMin83) (진정민) : 메인페이지, 로그인, 모집<br/>
+@[JeongMin83](https://github.com/JeongMin83) (진정민) : 메인페이지, 로그인, 모집<br/>
 
 ## 📌 기술 스택
 
@@ -163,29 +161,13 @@ https://2weeks-team-mzbe-c7xmzksqc-2weeks.vercel.app/
 </div>
 
 ## 📌 주요 화면 및 기능
-### 로그인
-![login](https://github.com/2weeks-team/2weeks-team/assets/39702832/96939258-7566-4c2c-9dd8-43a98e2f1fc2)
 
-### 메인페이지
-![main](https://github.com/2weeks-team/2weeks-team/assets/39702832/00e5c4cc-0466-4982-a941-38a01abb1a8a)
-
-### 위키
-![wiki_demo (4)](https://github.com/2weeks-team/2weeks-team/assets/39702832/bb54b442-7eed-468f-80e1-5caaeb55149e)
-
-### 모집
-![recuritment_demo](https://github.com/2weeks-team/2weeks-team/assets/39702832/04d18ad5-1c37-4f00-baf1-e02f0611d09d)
-
-### 갤러리
-![gallery](https://github.com/2weeks-team/2weeks-team/assets/39702832/296d7cbe-fe18-4b3a-8de8-dd11d65b1b69)
-
-### 마이페이지
-![myPage](https://github.com/2weeks-team/2weeks-team/assets/39702832/fe4ced66-b2e9-4ab7-ad09-18a585fcb29a)
 
 ## 📌 DB 스키마
-<img width="1609" alt="Movie Database" src="https://github.com/2weeks-team/2weeks-team/assets/39702832/92156c0f-0ae9-45f4-8671-3de44d8ecc9e">
+
 
 ## 📌 유저 플로우
-<img src="https://github.com/2weeks-team/2weeks-team/assets/39702832/871756a9-93da-4f20-9dcd-7e35200aadbd"/>
+
 
 ## 📌 파일 구조
 
@@ -236,4 +218,4 @@ https://2weeks-team-mzbe-c7xmzksqc-2weeks.vercel.app/
 └── ...
 ```
 
-### 📌 개발 기간 :  `2주` `23.09.11 ~ 23.09.22`
+### 📌 개발 기간 :  `2주` `23.11.06 ~ 23.11.16`
